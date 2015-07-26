@@ -28,6 +28,8 @@ _site
 *.sublime-workspace
 nbproject
 Thumbs.db
+Gruntfile.js
+package.json
 
 # Komodo
 .komodotools
@@ -36,3 +38,4 @@ Thumbs.db
 # Folders to ignore
 bower_components
 node_modules
+grunt
