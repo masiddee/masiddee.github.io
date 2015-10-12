@@ -39,3 +39,4 @@ package.json
 bower_components
 node_modules
 grunt
+less
