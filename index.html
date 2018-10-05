@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mansoor To Do List</title>
-    <link rel="stylesheet" href="css/main.css"> 
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Advanced JS Lesson</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
-    <div class="container">
-        <input type="text" class="new-list-item">
-        <button class="add-to-list">Add to List</button>
-        <ul id="todo">
+  
+  <h1>Class Roster</h1>
+  <button>Populate Class Roster</button>
+  <table>
+    <thead>
+      <tr>
+        <!-- <th>Last Name</th> -->
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Attendance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Add the class roster here dynamically using JS -->
+    </tbody>
+  </table>
 
-        </ul>
-        <h4>You have <span class="count">0</span> todos left.</h4>
-        <div class="clear-btn-holder">
-            <button class="clear-list">Clear List</button>
-            <button class="clear-complete">Clear Completed</button>
-        </div>
-    </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
