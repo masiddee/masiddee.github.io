@@ -1,25 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
-body {
-	font-family: 'Open Sans', sans-serif;
+.completed {
+    color: gray;
+    text-decoration: line-through;
 }
 
-table {
-	border: 1px solid lightgray;
-	margin-top: 10px;
+.list-item button.edit, .list-item button.remove {
+    display: none;
 }
 
-thead {
-	background-color: #eee;
-}
-
-th, td {
-	min-width: 150px;
-	text-align: center;
-}
-
-button {
-	padding: 8px 20px;
-	border-radius: 10px;
-	font-size: 1rem;
+.list-item:hover button.edit, .list-item:hover button.remove {
+    display: inline-block;
 }
