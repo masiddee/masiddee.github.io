@@ -1,0 +1,32 @@
+.container {
+	text-align: center;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+
+#userPlay, #compPlay {
+	min-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 40px;
+	border: 3px solid #dddddd;
+}
+
+.rock {
+	background-image: url('../images/rock.png');
+}
+
+.paper {
+	background-image: url('../images/paper.png');
+}
+
+.scissors {
+	background-image: url('../images/scissors.png');
+}
+
+.winner {
+	background-color: rgba(0,255,127,0.5);
+}
