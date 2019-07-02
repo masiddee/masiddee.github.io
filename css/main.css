@@ -1,0 +1,12 @@
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.list-item button.edit, .list-item button.remove {
+    display: none;
+}
+
+.list-item:hover button.edit, .list-item:hover button.remove {
+    display: inline-block;
+}
